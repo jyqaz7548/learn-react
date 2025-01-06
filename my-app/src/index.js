@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';  // 필요한 경우 import
 import Clock from './chapter04/Clock'; // Clock 컴포넌트 import
 import reportWebVitals from './reportWebVitals';
+import CommentList from './chapter05/CommentList';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( // Clock 컴포넌트 한 번만 렌더링
   <React.StrictMode>
-    <Clock />
+    <CommentList />
   </React.StrictMode>
 );
 
