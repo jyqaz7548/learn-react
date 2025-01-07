@@ -20,7 +20,7 @@ class Notification extends React.Component {
         super(props);
 
 
-        this.state = {};
+        this.state = {}; //state에 아무런 데이타도 가지고 있지 않다.
     }
 
     render() {
