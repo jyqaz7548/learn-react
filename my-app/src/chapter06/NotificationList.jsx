@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Notification from './notification';
+import Notification from './Notification';
 
 const reservedNotifications = [
     {
