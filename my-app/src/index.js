@@ -8,12 +8,13 @@ import reportWebVitals from './reportWebVitals';
 import CommentList from './chapter05/CommentList';
 import NotificationList from './chapter06/NotificationList';
 import Accommodate from './chapter07/Accommodate';
+import ConfirmButton from './chapter08/ConfirmButton';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( // Clock 컴포넌트 한 번만 렌더링
   <React.StrictMode>
-    <Accommodate />
+    <ConfirmButton />
   </React.StrictMode>
 );
 
